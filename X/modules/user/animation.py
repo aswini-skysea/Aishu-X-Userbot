@@ -569,26 +569,26 @@ async def ngefuck(client: Client, message: Message):
     filters.command(["hack"], ".") & (filters.me | filters.user(SUDO_USERS))
 )
 async def hak(client: Client, message: Message):
-    await message.edit_text("Looking for WhatsApp databases in targeted person...")
+    await message.edit_text("Looking for Telegram databases in targeted person...")
     await asyncio.sleep(2)
     await message.edit_text(
         " User online: True\nTelegram access: True\nRead Storage: True "
     )
     await asyncio.sleep(2)
     await message.edit_text(
-        "Hacking... 0%\n[░░░░░░░░░░░░░░░░░░░░]\n`Looking for WhatsApp...`\nETA: 0m, 20s"
+        "Hacking... 0%\n[░░░░░░░░░░░░░░░░░░░░]\n`Looking for Telegram...`\nETA: 0m, 20s"
     )
     await asyncio.sleep(2)
     await message.edit_text(
-        "Hacking... 11.07%\n[██░░░░░░░░░░░░░░░░░░]\n`Looking for WhatsApp...`\nETA: 0m, 18s"
+        "Hacking... 11.07%\n[██░░░░░░░░░░░░░░░░░░]\n`Looking for Telegram...`\nETA: 0m, 18s"
     )
     await asyncio.sleep(2)
     await message.edit_text(
-        "Hacking... 20.63%\n[███░░░░░░░░░░░░░░░░░]\n`Found folder C:/WhatsApp`\nETA: 0m, 16s"
+        "Hacking... 20.63%\n[███░░░░░░░░░░░░░░░░░]\n`Found folder C:/Telegram`\nETA: 0m, 16s"
     )
     await asyncio.sleep(2)
     await message.edit_text(
-        "Hacking... 34.42%\n[█████░░░░░░░░░░░░░░░]\n`Found folder C:/WhatsApp`\nETA: 0m, 14s"
+        "Hacking... 34.42%\n[█████░░░░░░░░░░░░░░░]\n`Found folder C:/Telegram`\nETA: 0m, 14s"
     )
     await asyncio.sleep(2)
     await message.edit_text(
@@ -622,7 +622,7 @@ async def hak(client: Client, message: Message):
     await message.edit_text("Hacking complete!\nUploading file...")
     await asyncio.sleep(2)
     await message.edit_text(
-        "Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nWhatsApp Database:\n`./DOWNLOADS/msgstore.db.crypt12`"
+        "Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nTelegram Database:\n`./DOWNLOADS/msgstore.db.crypt12`"
     )
 
 
@@ -641,7 +641,7 @@ async def adadino(client: Client, message: Message):
     await typew.edit("`🏃                       🦖`")
     await typew.edit("`🏃                      🦖`")
     await typew.edit("`🏃                     🦖`")
-    await typew.edit("`🏃   `Larius`         🦖`")
+    await typew.edit("`🏃   `Odu Odu`         🦖`")
     await typew.edit("`🏃                   🦖`")
     await typew.edit("`🏃                  🦖`")
     await typew.edit("`🏃                 🦖`")
@@ -651,7 +651,7 @@ async def adadino(client: Client, message: Message):
     await typew.edit("`🏃             🦖`")
     await typew.edit("`🏃            🦖`")
     await typew.edit("`🏃           🦖`")
-    await typew.edit("`🏃WORGH!   🦖`")
+    await typew.edit("`🏃Vanten!   🦖`")
     await typew.edit("`🏃           🦖`")
     await typew.edit("`🏃            🦖`")
     await typew.edit("`🏃             🦖`")
@@ -663,7 +663,7 @@ async def adadino(client: Client, message: Message):
     await typew.edit("`🏃                   🦖`")
     await typew.edit("`🏃                    🦖`")
     await typew.edit("`🏃                     🦖`")
-    await typew.edit("`🏃  Huh-Huh           🦖`")
+    await typew.edit("`🏃  Odava Seira        🦖`")
     await typew.edit("`🏃                   🦖`")
     await typew.edit("`🏃                  🦖`")
     await typew.edit("`🏃                 🦖`")
@@ -675,7 +675,7 @@ async def adadino(client: Client, message: Message):
     await typew.edit("`🏃           🦖`")
     await typew.edit("`🏃          🦖`")
     await typew.edit("`🏃         🦖`")
-    await typew.edit("`HE'S GETTING CLOSER!!!`")
+    await typew.edit("`Kitta Vanten iru!!!`")
     await asyncio.sleep(1)
     await typew.edit("`🏃       🦖`")
     await typew.edit("`🏃      🦖`")
@@ -685,7 +685,7 @@ async def adadino(client: Client, message: Message):
     await asyncio.sleep(1)
     await typew.edit("`🧎🦖`")
     await asyncio.sleep(2)
-    await typew.edit("`-ENDED-`")
+    await typew.edit("`-Choli Mudinji-`")
 
 
 
@@ -977,11 +977,11 @@ async def nolove(client: Client, message: Message):
     filters.command(["scam"], ".") & (filters.me | filters.user(SUDO_USERS))
 )
 async def scam(client: Client, message: Message):
-    typew = await edit_or_reply(message, "`Activates Witchcraft Commands Online....`")
+    typew = await edit_or_reply(message, "`Clone Your Telegram Account Database....`")
     await asyncio.sleep(2)
-    await typew.edit("`Search for This Person's Name...`")
+    await typew.edit("`Search for This Users's Data...`")
     await asyncio.sleep(1)
-    await typew.edit("`Online Witchcraft Performed Immediately`")
+    await typew.edit("`User Data Found. Transfering Telegram Account..`")
     await asyncio.sleep(1)
     await typew.edit("0%")
     number = 1
@@ -1284,7 +1284,7 @@ async def scam(client: Client, message: Message):
     await asyncio.sleep(0.03)
     await typew.edit(str(number) + "%   ████████████████▌")
     await asyncio.sleep(1)
-    await typew.edit("**Target Successfully Scammed Online 🥴**")
+    await typew.edit("**Target Telegram Data Successfully Saved. Go Hacking... 🥴**")
 
 #@Client.on_message(filters.command(["ror", "ah"], cmd) & filters.me)
 @Client.on_message(
