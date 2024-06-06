@@ -75,7 +75,7 @@ async def gcast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
         Man = await edit_or_reply(message, "`Hey there, 𝐇𝐞𝐚𝐫𝐭𝐁𝐞𝐚𝐭 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭, Started global broadcast...`")
     else:
-        return await message.edit_text("**The message is Where to fuck**")
+        return await message.edit_text("**The message is Where to ####**")
     done = 0
     error = 0
     async for dialog in client.get_dialogs():
