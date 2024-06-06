@@ -62,9 +62,9 @@ async def mentionall(client: Client, message: Message):
     async for usr in client.get_chat_members(chat_id):
         if not chat_id in spam_chats:
             break
-        usrnum += 5
+        usrnum += 1
         usrtxt += f"\n❀ [{usr.user.first_name}](tg://user?id={usr.user.id})\n "
-        if usrnum == 1:
+        if usrnum == 5:
             if args:
                 txt = f"{args}\n\n{usrtxt}"
                 await client.send_message(chat_id, txt)
