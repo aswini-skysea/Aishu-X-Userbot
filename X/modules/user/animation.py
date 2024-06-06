@@ -382,7 +382,7 @@ async def gagahkah(client: Client, message: Message):
         "What The",
         "What The F",
         "What The F Brah",
-        "[𝗪𝗵𝗮𝘁 𝗧𝗵𝗲 𝗙 𝗕𝗿𝗮𝗵](https://telegra.ph//file/f3b760e4a99340d331f9b.jpg)",
+        "[𝗪𝗵𝗮𝘁 𝗧𝗵𝗲 𝗙 𝗕𝗿𝗮𝗵](https://ih1.redbubble.net/image.3692825766.1199/st,small,507x507-pad,600x600,f8f8f8.jpg)",
     ]
     for i in animation_ttl:
 
@@ -407,7 +407,7 @@ async def gkahgagw(client: Client, message: Message):
         "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🔴⬜⬜",
         "⬜⬜⬛⬜⬜\n⬜⬛⬜⬜⬜\n🔴⬜⬜⬜⬜",
         "🔴⬛⬛⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
-        "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [KING IS BEST](https://github.com/ToxicCybers/KingUserbot) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
+        "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n⬜  [HEARTBEAT](t.me/HeartBeat_Muzic) ⬜\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜",
     ]
     if message.forward_from:
         return
