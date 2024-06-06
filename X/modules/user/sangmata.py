@@ -55,7 +55,7 @@ from .help import *
 )
 async def sg(client: Client, message: Message):
     args = await extract_user(message)
-    lol = await edit_or_reply(message, "I'm curious, what's the name of samurai?....`")
+    lol = await edit_or_reply(message, "Checking your name history....`")
     if args:
         try:
             user = await client.get_users(args)
