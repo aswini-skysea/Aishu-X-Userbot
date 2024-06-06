@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2024 Japanese-X-Userbot
+#Copyright (c) 2024 𝐇𝐞𝐚𝐫𝐭𝐁𝐞𝐚𝐭-𝐗-𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -46,7 +46,7 @@ from X.helpers.basic import edit_or_reply, get_text, get_user
 from .help import *
 
 OWNER = os.environ.get("OWNER", None)
-BIO = os.environ.get("BIO", "𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄-𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓")
+BIO = os.environ.get("BIO", "𝐇𝐞𝐚𝐫𝐭𝐁𝐞𝐚𝐭-𝐗-𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭�")
 
 
 @Client.on_message(
