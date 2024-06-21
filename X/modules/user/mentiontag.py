@@ -46,7 +46,7 @@ spam_chats = []
 
 
 @Client.on_message(
-    filters.command(["mentionall"], ".") & (filters.me | filters.user(SUDO_USERS))
+    filters.command(["tg"], ".") & (filters.me | filters.user(SUDO_USERS))
 )
 async def mentionall(client: Client, message: Message):
     await message.delete()
@@ -63,8 +63,8 @@ async def mentionall(client: Client, message: Message):
         if not chat_id in spam_chats:
             break
         usrnum += 1
-        usrtxt += f"\n❀ [{usr.user.first_name}](tg://user?id={usr.user.id})\n "
-        if usrnum == 5:
+        usrtxt += f"\n✰ [{usr.user.first_name}](tg://user?id={usr.user.id})\n "
+        if usrnum == 1:
             if args:
                 txt = f"{args}\n\n{usrtxt}"
                 await client.send_message(chat_id, txt)
