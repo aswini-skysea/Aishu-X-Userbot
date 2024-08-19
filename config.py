@@ -29,29 +29,31 @@ from dotenv import load_dotenv
 
 load_dotenv("config.env")
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🥵")
-ALIVE_LOGO = getenv("ALIVE_LOGO", "https://graph.org/file/ec99cb6dba229bd984537.jpg")
-PM_PIC = getenv("PM_PIC", "https://graph.org/file/936ef33023a77fa9a6813.jpg")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", "💫")
+ALIVE_LOGO = getenv("ALIVE_LOGO", "https://graph.org/file/ffdb1be822436121cf5fd.png")
+PM_PIC = getenv("PM_PIC", "https://graph.org/file/ffdb1be822436121cf5fd.png")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
+MONGO_URL = getenv("MONGO_URL", "")
+
 API_HASH = getenv("API_HASH", "34efb38c74d5e6b25d1bb6234396a8af")
 API_ID = getenv("API_ID", "23129036")
+BOT_TOKEN = getenv("BOT_TOKEN", "none")
+GROUP = getenv("GROUP", "Japanese_Userbot_Support")
+
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
-BOT_VER = "4.0.0@main"
+BOT_VER = "2.0.0@HeartBeat"
 BRANCH = getenv("BRANCH", "main") #don't change this line 
 CMD_HNDLR = cmd
-BOT_TOKEN = getenv("BOT_TOKEN", "none")
 OPENAI_API_KEY = getenv("OPENAI_API_KEY", "")
 CHANNEL = getenv("CHANNEL", "Japanese_Userbot")
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv("GIT_TOKEN", "")
-GROUP = getenv("GROUP", "Japanese_Userbot_Support")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
-REPO_URL = getenv("REPO_URL", "https://github.com/Team-Japanese/Japanese-X-Userbot")
-MONGO_URL = getenv("MONGO_URL", "")
+REPO_URL = getenv("REPO_URL", "https://github.com/rajeshrakis/Japanese-X-Userbot")
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
