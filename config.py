@@ -42,7 +42,7 @@ GROUP = getenv("GROUP", "HeartBeat_Muzic")
 
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID", -1001735663878))
 BOT_VER = "2.0.0 @HeartBeat_Muzic"
-BRANCH = getenv("BRANCH", "master") #don't change this line 
+BRANCH = getenv("BRANCH", "main") #don't change this line 
 CMD_HNDLR = cmd
 OPENAI_API_KEY = getenv("OPENAI_API_KEY", "")
 CHANNEL = getenv("CHANNEL", "HeartBeat_Offi")
